@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#234200"
+    tools:context=".gamemanual">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게임방법"
+        android:textSize="35dp"
+        android:textColor="#CFA636"
+        android:textStyle="bold"
+        android:paddingLeft="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="마우스를 클릭해서 같은 화투패를 맞추는 게임입니다.
+                      게임시작후 5초가 주어지니 \n잘 확인하시길 바랍니다."
+        android:textColor="#CFA636"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/explain"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위 그림처럼 같은그림을 잘 찾아주시면 됩니다."
+        android:gravity="center"
+        android:textColor="#CFA636"
+        android:textSize="30dp" />
+
+
+
+</LinearLayout>
